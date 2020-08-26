@@ -1,4 +1,34 @@
 body {
     background-color: antiquewhite;
     color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.container {
+    /* background-color: cyan; */
+    margin: 20px;;
+}
+.caption {
+    display:flex;
+    justify-content: center;
+}
+.nestle {
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.henri {
+  max-width:400px;
+  max-height:300px;
+}
+figcaption {
+    background-color: black;
+    text-align: center;
+    max-width:400px;
+    max-height:300px;
+    padding:5px;
+}
+
+span {
+    font-weight: bold;
 }
