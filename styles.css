@@ -2,7 +2,7 @@ body {
     background-color: antiquewhite;
     color: crimson;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 h1, h4 {
@@ -27,7 +27,6 @@ h1, h4 {
 .henri {
   max-width:400px;
   max-height:300px;
-  
   padding: 5px;
   background-color: white;
 }
@@ -51,4 +50,8 @@ span {
 .list {
     text-align: center;
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
